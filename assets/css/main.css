@@ -303,7 +303,14 @@ main{
  }
 
  .close-menu--mobile{
-   
-   margin-right: 40px;
- }
+  margin-right: 0;
+}
+}
+@media(max-width:450px){
+  .nav-link__visible{
+    left:30%;
+  }
+  .visible{
+    width:30%;
+  }
 }
