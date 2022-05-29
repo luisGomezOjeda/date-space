@@ -379,8 +379,13 @@ body{
     margin: 0;
     right: 68%;
   }
+  .main-info p{
+    width: 90%;
+    margin: 0 auto;
+  }
  .info-sections input[type="checkbox"] + label{
    font-size:1.6rem;
    font-weight:bolder;
  }
+
 }
