@@ -386,14 +386,15 @@ body{
     right: 68%;
   }
   .main-title{
-    font-size:2rem;
-    letter-spacing:0px;
+    font-size:3rem;
+    font-weight: 500;
+    width: 100%;
   }
   .main-img{
     height: 290px;
   }
   .main-img img{
-    height: 260px;
+    height: 290px;
   }
   .main-info h3{
     font-size: 1.6rem;
@@ -404,6 +405,10 @@ body{
   }
   .main-info p{
     line-height:2.5rem;
+    padding-bottom: 15px;
+  }
+  .info-sections{
+    margin-top: 20px;
   }
   .info-sections input[type="checkbox"] + label{
     width: 50px;
