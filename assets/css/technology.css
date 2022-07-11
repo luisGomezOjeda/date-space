@@ -28,8 +28,12 @@ body{
   grid-template-columns: 60% 40%;
   grid-template-rows: 1fr 5fr;
   place-items:center;
+  overflow-y: auto;
 }
 
+::-webkit-scrollbar {
+  visibility: hidden
+}
 .main-title{
   width: 70%;
   grid-area: 1/1/2/2;

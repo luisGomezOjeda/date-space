@@ -26,6 +26,11 @@ body{
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
+  overflow-y: auto;
+}
+
+::-webkit-scrollbar {
+  visibility: hidden
 }
 
 .main-ilustration{
