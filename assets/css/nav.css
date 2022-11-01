@@ -118,6 +118,13 @@
   .nav-hamborguer{
    display: block;
    margin: 30px;
+   z-index: 500;
+
+  }
+
+  .nav-hamborguer-nav{
+    position: absolute;
+    
   }
  
   .nav-hamborguer__hidden{

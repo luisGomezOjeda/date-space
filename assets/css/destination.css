@@ -21,7 +21,7 @@ body{
   height: 100vh;
 }
 
-.main{
+main{
   width: 100%;
   height: auto;
   display: grid;
@@ -192,7 +192,7 @@ margin-top:30px;
     height: auto;
     background-image: url("../destination/background-destination-tablet.jpg");
   }
-  .main{
+  main{
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;

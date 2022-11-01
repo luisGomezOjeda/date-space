@@ -31,9 +31,9 @@ main{
  overflow-y: auto;
 }
 
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
   visibility: hidden
-}
+} */
 
 .main-info{
  padding:120px ;
@@ -90,7 +90,7 @@ main{
   height: 100vh;
   background-image: url("../home/background-home-tablet.jpg");
  }
- .main{
+ main{
   height:100%;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 200px;
