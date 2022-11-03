@@ -13,7 +13,7 @@ d.addEventListener("DOMContentLoaded",(e)=>{
 d.addEventListener("click",(e)=>{
   // home //
   if(e.target.matches(".nav-ul-li a"))e.preventDefault();
-  if(e.target.textContent === "00 Home"){
+  if(e.target.textContent.includes("00")){
     getHTML(e.target.href,e.target.dataset.css,undefined);
   }
   // destination //
