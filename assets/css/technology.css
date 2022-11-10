@@ -6,6 +6,7 @@
  }
  
  html{
+   width: 100%;
   font-family: 'Barlow Condensed', sans-serif;
   font-family: 'Poppins', sans-serif;
   font-size: 62.5%;
@@ -13,6 +14,7 @@
  }
  
  body{
+  width: 100%;
   background-image: url("../technology/background-technology-desktop.jpg");
   background-repeat: no-repeat;
   background-position: center;

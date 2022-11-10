@@ -7,7 +7,8 @@ export async function getHTML(url,cssStyle=undefined,main=undefined,loadContent=
   console.log(url);
   main.innerHTML = html;
  }catch(err){
-  main.innerHTML = `${err.status} : ${err.statusText || "ocurrio un error"}`;
+  const message = err.statusText || "ocurrio un error";
+  main.innerHTML = `<h3>${err.status} : ${message}</h3>`;
  }
 
  if(cssStyle !== undefined) document.head.querySelector("link[rel=stylesheet]").href = cssStyle;

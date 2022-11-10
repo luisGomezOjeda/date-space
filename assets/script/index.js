@@ -44,10 +44,10 @@ d.addEventListener("click",(e)=>{
   // tecnology //
   if(e.target.textContent.includes("03")){
     getHTML(e.target.href,e.target.dataset.css,undefined,{
-      urlContent:"./assets/html/tecnology/Launch_vehicle--info.html",
+      urlContent:"./assets/html/tecnology/aunch_vehicle--info.html",
       mainContent:".info-date",
     },{
-      urlContent:"./assets/html/tecnology/launch-vehicle--img.html",
+      urlContent:"./assets/html/tecnology/Launch-vehicle--img.html",
       mainContent:".main-img",
     });
     getData(getHTML,".info-sections input + label",".info-sections input",".info-date",".main-img");
