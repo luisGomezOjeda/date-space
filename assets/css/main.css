@@ -31,9 +31,9 @@ main{
  overflow-y: auto;
 }
 
-/* ::-webkit-scrollbar {
+::-webkit-scrollbar {
   visibility: hidden
-} */
+}
 
 .main-info{
  padding:120px ;
@@ -43,8 +43,6 @@ main{
  display: grid;
  align-items: center;
  margin-bottom: 250px;
- 
- 
 }
 
 .main-info h2{
